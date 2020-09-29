@@ -23,5 +23,13 @@ public class StaffManager {
         numberOfStaff++;
     }
 
+    public void showStaffList(){
+        for (Staff s : staffList){
+            System.out.print(s.toString());
+        }
+    }
+
+
+
     public void underAvarageList(){}
 }

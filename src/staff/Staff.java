@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public abstract class Staff {
     protected int staffId;
     protected String name;
@@ -18,6 +20,27 @@ public abstract class Staff {
     }
 
     /////METHODS:
+
+    public void setStaffId(int staffId) {
+        this.staffId = staffId;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setPhoneNumber(int phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
     @Override
     public String toString() {
         return "| ID          : " + staffId
@@ -27,6 +50,7 @@ public abstract class Staff {
                 + "\n| Email       : "+ email
                 + "\n--------------------------------";
     }
+
 
     public abstract int getRealSalary();
 }
