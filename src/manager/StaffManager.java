@@ -1,3 +1,7 @@
+package manager;
+
+import staff.Staff;
+
 import java.util.stream.IntStream;
 
 public class StaffManager {

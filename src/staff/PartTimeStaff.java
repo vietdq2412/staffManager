@@ -1,12 +1,14 @@
-public class PassTimeStaff extends Staff {
+package staff;
+
+public class PartTimeStaff extends Staff {
     private int workTime;
 
     ///CONSTRUCTOR
-    public PassTimeStaff() {
-        name = "pass time";
+    public PartTimeStaff() {
+        name = "part time";
     }
 
-    public PassTimeStaff(int staffId, String name, int age, int phoneNumber, String email, int workTime) {
+    public PartTimeStaff(int staffId, String name, int age, int phoneNumber, String email, int workTime) {
         super(staffId, name, age, phoneNumber, email);
         this.workTime = workTime;
     }

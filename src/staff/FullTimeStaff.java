@@ -1,3 +1,5 @@
+package staff;
+
 public class FullTimeStaff extends Staff {
     private int penalty;
     private int salary;

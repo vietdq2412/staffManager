@@ -1,3 +1,5 @@
+package staff;
+
 import java.util.Scanner;
 
 public abstract class Staff {

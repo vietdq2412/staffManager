@@ -1,3 +1,8 @@
+package manager;
+
+import staff.FullTimeStaff;
+import staff.Staff;
+
 import java.util.Scanner;
 
 public class Menu extends StaffManager {
@@ -18,7 +23,7 @@ public class Menu extends StaffManager {
 
     public void printMenu() {
         System.out.println(
-                " ----------Menu---------"
+                " ----------manager.Menu---------"
                         + "\n| --1.Add staff---------|"
                         + "\n| --2.Show staffs list--|"
                         + "\n| --3.Manage staff------|"
